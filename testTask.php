@@ -5,7 +5,7 @@
 		'USER_LOGIN'=>'YOUR_LOGIN', #Ваш логин (электронная почта)
 	 	'USER_HASH'=>'YOUR_HASH' #Хэш для доступа к API (смотрите в профиле пользователя)
 	);
-	$subdomain = 'sergey5551996';
+	$subdomain = 'YOUR_SUBDOMAIN';
 	// Авторизация
 	$link='https://'.$subdomain.'.amocrm.ru/private/api/auth.php?type=json';
 	$out = execRequestAmoCrm($link, $user);
